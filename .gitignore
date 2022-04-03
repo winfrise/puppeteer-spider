@@ -1,4 +1,5 @@
 node_modules/
 **.csv
 .DS_Store
-config/config.site.js
+config/config.site.list.js
+test.png

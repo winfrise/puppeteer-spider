@@ -1,28 +1,20 @@
-# SkuSpider
+# PuppeteerSpider
 
-基于puppeteer的电商爬虫工具
+基于puppeteer的列表爬虫
 
 <img src="https://img003.qufenqi.com/products/27/1d/271d6bcfc39d4c569dde3f0dde99edee.gif" width="600">
 
 ## 使用方法
 
-### 第一步，下载代码，安装依赖：
-```shell
-$ git clone https://github.com/xiongwilee/SkuSpider.git
-$ cd SkuSpider && npm i
-```
+### 第一步，修改配置文件
 
-### 第二步，修改配置文件
-
-参考`./config/config.site.js`
+添加文件 `./config/config.site.list.js` （参考 config.site.list.js.tpl`）
 
 ### 第三步，开始爬取
 
 ```shell
-$ node index.js
+$ npm run start
 ```
 
-## 作者
-
-* [xiongwilee](https://github.com/xiongwilee)
+[Puppeteer中文API](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/)
 
